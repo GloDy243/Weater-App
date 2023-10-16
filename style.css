@@ -1,0 +1,115 @@
+body{
+    background-color: red;
+    background: center url('/img/img-background.jpg');
+    font-family: Arial, Helvetica, sans-serif;
+}
+.form-container{
+    background: rgba(179, 255, 255, .7);
+    margin: auto;
+    border-radius: 10px;
+}
+.theForm{
+    margin: 3rem 5rem;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.btn-search{
+    border-radius: 5px;
+    height: 2rem;
+    border-style: none;
+    transition: all .3s ease;
+    font-size: 1.3rem;
+}
+.btn-search:hover{
+    cursor: pointer;
+    background: rgb(30, 144, 255);
+    box-shadow: 5px 2px 15px rgb(0, 0, 139);
+    color: #fff;
+}
+.town{
+    border-radius: 5px;
+    height: 2rem;
+    color: rgb(101, 110, 110);
+    border-style: none;
+    margin-top: 5px;
+    outline: none;
+    font-size: 1.3rem;
+}
+.town:hover, .town:focus{
+    border-style: none;
+}
+
+
+.weather{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 7rem;
+}
+
+.city-name{
+    background: rgba(102, 102, 255, .6);
+    height: 10rem;
+    width: 10rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem;
+    position: relative;
+    transition: all .3s ease;
+}
+.city-name:hover{
+    background: rgba(102, 102, 255, .8);
+    box-shadow: -5px 10px 15px rgb(0, 0, 139);
+}
+.city-name p{
+    padding-top: 2.3rem;
+}
+.temperature{
+    background: rgba(217, 217, 217, .6);
+    height: 10rem;
+    width: 10rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem;
+    transition: all .3s ease;
+}
+.temperature:hover{
+    background: rgba(169, 169, 169, .8);
+    box-shadow: -5px 10px 15px rgb(169, 169, 169);
+
+}
+.hunidity{
+    background: rgba(128, 255, 255, .6);
+    height: 10rem;
+    width: 10rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem;
+    transition: all .3s ease;
+}
+.hunidity:hover{
+    background: rgb(128, 255, 255);
+    box-shadow: -5px 10px 15px rgb(128, 255, 255);
+}
+.wind{
+    background: rgba(240, 255, 255, .6);
+    height: 10rem;
+    width: 10rem;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 2rem;
+    transition: all .3s ease;
+}
+.wind:hover{
+    background: rgb(127, 255, 212);
+    box-shadow: -5px 10px 15px rgba(127, 255, 212, .8);
+
+}

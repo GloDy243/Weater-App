@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="form-container">
+        <form class="theForm">
+            <label for="town" class="label-form">ENTER THE TOWN</label>
+            <input type="text" name="town" id="town" class="town" required>
+            <input type="button" value="Search" class="btn-search">
+        </form>
+    </div>
+    <div class="weather">
+        <div class="row1">
+            <div class="city-name">
+                <p class="p-city-name">Paris</p>
+            </div>
+            <div class="temperature">
+                <ion-icon name="thermometer-outline"></ion-icon>
+                <p class="degre-temperature">21.94 °</p>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="hunidity">
+                <ion-icon name="water-outline"></ion-icon>
+                <p class="hunidity-percentage">46 %</p>
+            </div>
+            <div class="wind">
+                <ion-icon name="pulse-outline"></ion-icon>
+                <p class="level-wind">3.6 Km/h</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
